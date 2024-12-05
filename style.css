@@ -1,18 +1,18 @@
-/* Azzeramenti generali e impostazioni base */
+/* General resets and base settings */
 *,
 *::before,
 *::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /* Imposta il box model */
+  box-sizing: border-box; /* Sets the box model */
 }
 
-/* Tema Dracula per il body */
+/* Dracula theme for the body */
 body {
-  background-color: #282a36; /* Colore di sfondo scuro */
-  color: #f8f8f2; /* Colore del testo primario */
-  font-family: "Fira Code", monospace; /* Font simile a quello usato in VS Code */
-  line-height: 1.6; /* Line-height leggibile */
+  background-color: #282a36; /* Dark background color */
+  color: #f8f8f2; /* Primary text color */
+  font-family: "Fira Code", monospace; /* Monospaced font similar to VS Code */
+  line-height: 1.6; /* Readable line height */
   margin: 0;
   padding: 0;
 }
@@ -21,70 +21,70 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  outline: none;
+  outline: none; /* Removes the outline */
 }
 
-/* Link */
+/* Links */
 a {
-  color: #8be9fd; /* Colore azzurro brillante */
-  text-decoration: none;
+  color: #8be9fd; /* Bright blue color */
+  text-decoration: none; /* Removes underline */
 }
 
 a:hover {
-  color: #50fa7b; /* Verde brillante per hover */
+  color: #50fa7b; /* Bright green for hover */
 }
 
-/* Titoli */
+/* Headings */
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #ff79c6; /* Rosa acceso */
+  color: #ff79c6; /* Bright pink color */
 }
 
-/* Paragrafi */
+/* Paragraphs */
 p {
-  margin: 0 0 1em; /* Spaziatura di base per i paragrafi */
+  margin: 0 0 1em; /* Basic spacing for paragraphs */
 }
 
-/* Blocchi di codice */
+/* Code blocks */
 code {
-  background-color: #44475a; /* Grigio scuro */
-  color: #f8f8f2; /* Testo chiaro */
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
-  font-family: "Fira Code", monospace;
+  background-color: #44475a; /* Dark gray background */
+  color: #f8f8f2; /* Light text color */
+  padding: 0.2em 0.4em; /* Padding for readability */
+  border-radius: 4px; /* Rounded corners */
+  font-family: "Fira Code", monospace; /* Monospaced font */
 }
 
-/* Evidenziazione */
+/* Highlights */
 .mark {
-  background-color: #bd93f9; /* Viola brillante */
-  color: #282a36; /* Testo scuro */
-  padding: 0.2em 0.4em;
-  border-radius: 4px;
+  background-color: #bd93f9; /* Bright purple background */
+  color: #282a36; /* Dark text color */
+  padding: 0.2em 0.4em; /* Padding for emphasis */
+  border-radius: 4px; /* Rounded corners */
 }
 
-/* Contenitori */
+/* Containers */
 .container {
-  border: 1px solid #6272a4; /* Bordo grigio/viola */
-  padding: 20px;
-  border-radius: 8px;
-  background-color: #44475a;
+  border: 1px solid #6272a4; /* Gray/purple border */
+  padding: 20px; /* Spacing inside the container */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #44475a; /* Dark gray background */
 }
 
-/* Pulsanti */
+/* Buttons */
 button {
-  background-color: #50fa7b; /* Verde brillante */
-  color: #282a36; /* Testo scuro */
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: "Fira Code", monospace;
+  background-color: #50fa7b; /* Bright green background */
+  color: #282a36; /* Dark text color */
+  border: none; /* Removes border */
+  padding: 10px 15px; /* Button spacing */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor for interaction */
+  font-family: "Fira Code", monospace; /* Monospaced font */
 }
 
 button:hover {
-  background-color: #8be9fd; /* Azzurro brillante per hover */
+  background-color: #8be9fd; /* Bright blue for hover */
 }
