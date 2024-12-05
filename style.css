@@ -1,0 +1,90 @@
+/* Azzeramenti generali e impostazioni base */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Imposta il box model */
+}
+
+/* Tema Dracula per il body */
+body {
+  background-color: #282a36; /* Colore di sfondo scuro */
+  color: #f8f8f2; /* Colore del testo primario */
+  font-family: "Fira Code", monospace; /* Font simile a quello usato in VS Code */
+  line-height: 1.6; /* Line-height leggibile */
+  margin: 0;
+  padding: 0;
+}
+
+.draw {
+  position: fixed;
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+/* Link */
+a {
+  color: #8be9fd; /* Colore azzurro brillante */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #50fa7b; /* Verde brillante per hover */
+}
+
+/* Titoli */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff79c6; /* Rosa acceso */
+}
+
+/* Paragrafi */
+p {
+  margin: 0 0 1em; /* Spaziatura di base per i paragrafi */
+}
+
+/* Blocchi di codice */
+code {
+  background-color: #44475a; /* Grigio scuro */
+  color: #f8f8f2; /* Testo chiaro */
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-family: "Fira Code", monospace;
+}
+
+/* Evidenziazione */
+.mark {
+  background-color: #bd93f9; /* Viola brillante */
+  color: #282a36; /* Testo scuro */
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+}
+
+/* Contenitori */
+.container {
+  border: 1px solid #6272a4; /* Bordo grigio/viola */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #44475a;
+}
+
+/* Pulsanti */
+button {
+  background-color: #50fa7b; /* Verde brillante */
+  color: #282a36; /* Testo scuro */
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Fira Code", monospace;
+}
+
+button:hover {
+  background-color: #8be9fd; /* Azzurro brillante per hover */
+}
