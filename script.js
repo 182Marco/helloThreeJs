@@ -7,6 +7,11 @@ const mesh = new THREE.Mesh(
   new THREE.MeshBasicMaterial({ color: "#8be9fd" })
 );
 
+// mesh position
+mesh.position.x = 2;
+mesh.position.y = 1;
+mesh.position.z = 4;
+
 // Add mesh to the scene
 scene.add(mesh);
 
@@ -17,9 +22,9 @@ const aspect = {
 
 // Initialize the camera
 const camera = new THREE.PerspectiveCamera(75, aspect.width / aspect.height); // Default values: near=1, far=2000
-camera.position.z = 3;
-camera.position.x = 1;
-camera.position.y = 1;
+camera.position.z = 7;
+camera.position.x = 0;
+camera.position.y = 0;
 
 // Initialize the canvas
 const canvas = document.querySelector(".draw");
