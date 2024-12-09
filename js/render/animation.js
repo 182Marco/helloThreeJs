@@ -1,6 +1,5 @@
 const animate = () => {
-  cube1.rotation.x += 0.01;
-  // Render the scene
+  cube1.rotation.x = clock.getElapsedTime();
   renderer.render(scene, camera);
   window.requestAnimationFrame(animate);
 };
